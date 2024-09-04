@@ -54,6 +54,19 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.socialBadges a {
+  font-size: 32px;
+  color:#808080;
+}
+
+.socialIcon {
+  margin: 5px;
+  padding: 5px;
+}
+.socialIcon:hover {
+  color: #747bff;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
