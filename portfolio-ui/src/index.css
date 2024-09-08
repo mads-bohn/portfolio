@@ -54,12 +54,37 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.introduction {
-  text-align: left;
+
+.hero {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
-.introduction * {
-  margin: 10px;
-  padding: 0;
+
+.hero-left {
+  text-align: left;
+  width: 50%;
+  padding: 40px;
+}
+.hero-left h1 {
+  font-size: 4rem;
+  margin: 0 auto 20px;
+}
+.hero-left h4 {
+  /* font-size: 1.2rem; */
+  inline-size: 450px;
+  text-align: justify;
+  margin: 5px 0;
+}
+
+.hero-right {
+  width: 50%;
+}
+.hero-right img {
+  padding: 20px;
+  max-width: 100%;
 }
 
 .socialBadges a {
@@ -68,8 +93,8 @@ button:focus-visible {
 }
 
 .socialIcon {
-  margin: 5px;
-  padding: 5px;
+  margin-right: 10px;
+  padding: 5px 10px 5px 0;
 }
 .socialIcon:hover {
   color: #747bff;
