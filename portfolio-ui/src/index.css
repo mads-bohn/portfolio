@@ -54,6 +54,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.introduction {
+  text-align: left;
+}
+.introduction * {
+  margin: 10px;
+  padding: 0;
+}
+
 .socialBadges a {
   font-size: 32px;
   color:#808080;

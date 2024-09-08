@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import SocialBadges from '../components/index/SocialBadges'
+import Introduction from '../components/index/Introduction'
 
 export default function Index() {
   return (
     <div>
         <Navbar />
-        <p>Hello, world!</p>
-        <SocialBadges iconSize={"l"} />
+        <Introduction />
+        
     </div>
   )
 }
