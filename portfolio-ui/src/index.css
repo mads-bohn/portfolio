@@ -55,20 +55,6 @@ button:focus-visible {
 }
 
 
-
-.socialBadges a {
-  font-size: 32px;
-  color:#808080;
-}
-
-.socialIcon {
-  margin-right: 10px;
-  padding: 5px 10px 5px 0;
-}
-.socialIcon:hover {
-  color: #747bff;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

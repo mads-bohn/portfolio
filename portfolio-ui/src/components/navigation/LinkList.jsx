@@ -1,13 +1,16 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import './navigation.css'
 
 export default function LinkList() {
   return (
     <div>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/resume">Resume</Link>
-        <Link to="/contact">Contact Me</Link>
+      <ul className='linkList'>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/resume">Resume</Link></li>
+        <li><Link to="/contact">Contact Me</Link></li>
+      </ul>
     </div>
   )
 }

@@ -1,0 +1,23 @@
+li {
+    list-style: "-";
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 32px;
+    line-height: 2;
+}
+li a {
+    color: black;
+}
+
+.socialBadges a {
+    font-size: 32px;
+    color:#808080;
+}
+  
+.socialIcon {
+    margin-right: 10px;
+    padding: 5px 10px 5px 0;
+}
+.socialIcon:hover {
+    color: #747bff;
+}
