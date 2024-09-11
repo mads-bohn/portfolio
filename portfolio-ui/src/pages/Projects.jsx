@@ -1,10 +1,9 @@
 import React from 'react'
-import Navbar from '../components/navbar'
+import Navbar from '../components/navigation/LinkList'
 
 export default function Projects() {
   return (
     <div>
-        <Navbar />
         <p>Hello, Projects!</p>
     </div>
   )

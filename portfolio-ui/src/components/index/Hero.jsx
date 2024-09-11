@@ -1,17 +1,17 @@
 import React from 'react'
-import SocialBadges from './SocialBadges'
+import SocialBadges from '../navigation/SocialBadges'
+import LinkList from '../navigation/LinkList'
 
 export default function Hero() {
   return (
     <div className='hero'>
       <div className='hero-left'>
-        <h4>Hi, my name is</h4>
-        <h1>Mads Bohn</h1>
-        <h3>I'm a full-stack developer specializing in user-driven design.</h3>
-        <SocialBadges iconSize={"l"} />
+        <h1>MADS BOHN</h1>
+        <h3>Full-Stack Developer</h3>
       </div>
       <div className='hero-right'>
-        <img src='../src/assets/placeholder.png'/>
+        <LinkList />
+        <SocialBadges />
       </div>
     </div>
   )
