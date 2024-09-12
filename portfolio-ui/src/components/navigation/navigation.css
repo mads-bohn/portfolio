@@ -2,22 +2,34 @@ li {
     list-style: "-";
     text-transform: uppercase;
     text-align: left;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 2;
-}
-li a {
-    color: black;
+    position: relative;
+    left: 8px;
 }
 
-.socialBadges a {
+li a {
+    color: #0e1d31;
+}
+li a:hover {
+    transition: color .7s;
+}
+
+.socialIcons {
+    margin-top: 8px;
+    width: 151px;
+}
+
+.socialIcons a {
     font-size: 32px;
-    color:#808080;
+    color:#0e1d31;
 }
   
 .socialIcon {
     margin-right: 10px;
-    padding: 5px 10px 5px 0;
+    padding: 5px 10px 0 0;
 }
 .socialIcon:hover {
     color: #747bff;
+    transition: color .7s;
 }

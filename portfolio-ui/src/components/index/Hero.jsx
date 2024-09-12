@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialBadges from '../navigation/SocialBadges'
+import SocialIcons from '../navigation/SocialIcons'
 import LinkList from '../navigation/LinkList'
 import './hero.css'
 
@@ -7,13 +7,12 @@ export default function Hero() {
   return (
     <div className='hero'>
       <div className='hero-left'>
-        <h1>MADS</h1>
-        <h1>BOHN</h1>
-        <h3>Full-Stack Developer</h3>
+        <h1 className='hero-name'>MADS <br /> BOHN</h1>
+        <h3 className='hero-title'>Full-Stack Developer</h3>
       </div>
       <div className='hero-right'>
         <LinkList />
-        <SocialBadges />
+        <SocialIcons />
       </div>
     </div>
   )

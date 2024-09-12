@@ -4,14 +4,14 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './navigation.css'
 
-export default function SocialBadges({iconSize}) {
+export default function SocialIconss({iconSize}) {
   return (
-    <div className='socialBadges'>
+    <div className='socialIcons'>
+      <a href='https://www.linkedin.com/in/mads-bohn-12a9212b0/'>
+          <FontAwesomeIcon icon={faLinkedin} size={iconSize} className='socialIcon' />
+        </a>
         <a href='https://github.com/mads-bohn'>
           <FontAwesomeIcon icon={faGithub} size={iconSize} className='socialIcon'/>
-        </a>
-        <a href='https://www.linkedin.com/in/mads-bohn-12a9212b0/'>
-          <FontAwesomeIcon icon={faLinkedin} size={iconSize} className='socialIcon' />
         </a>
         <a href='mailto:madsbohn14@gmail.com'>
           <FontAwesomeIcon icon={faEnvelope} size={iconSize} className='socialIcon' />
