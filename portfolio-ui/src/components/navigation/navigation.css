@@ -15,6 +15,15 @@ li a:hover {
     transition: color .7s;
 }
 
+.sidebar {
+    background-color: rgb(228, 228, 228);
+    height: 100vh;
+    padding: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
 .socialIcons {
     margin-top: 8px;
     width: 151px;

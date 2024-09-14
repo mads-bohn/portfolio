@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../components/navigation/LinkList'
+import SideBar from '../components/navigation/SideBar'
 
 export default function Resume() {
   return (
     <div>
-        <Navbar />
+        <SideBar />
         <p>Hello, Resume!</p>
     </div>
   )

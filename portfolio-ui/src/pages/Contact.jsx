@@ -1,9 +1,11 @@
 import React from 'react'
+import SideBar from '../components/navigation/SideBar'
 
 export default function Contact() {
   return (
     <div>
-        <p>Hello, Contact!</p>
+      <SideBar />
+      <p>Hello, Contact!</p>
     </div>
   )
 }
