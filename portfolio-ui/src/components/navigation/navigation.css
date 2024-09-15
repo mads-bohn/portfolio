@@ -1,4 +1,4 @@
-li {
+.linkList li {
     list-style: "-";
     text-transform: uppercase;
     text-align: left;
