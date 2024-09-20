@@ -7,9 +7,7 @@ import './navigation.css'
 export default function SideBar() {
   return (
     <div className='sidebar'>
-      <div className='sidebar-name'>
-        <h1><Link to="/">MADS <br /> BOHN</Link></h1>
-      </div>
+      <h1 className='sidebar-name'><Link to="/">MADS <br /> BOHN</Link></h1>
       <div className='sidebar-links'>
         <LinkList />
       </div>

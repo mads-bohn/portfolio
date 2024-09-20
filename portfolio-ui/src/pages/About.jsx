@@ -1,7 +1,8 @@
 import React from 'react'
 import SideBar from '../components/navigation/SideBar'
-import Skills from '../components/about/Skills'
 import Bio from '../components/about/Bio'
+import '../components/about/about.css'
+
 
 export default function About() {
   return (
@@ -9,7 +10,6 @@ export default function About() {
       <SideBar />
       <div className='page'>
         <Bio />
-        <Skills />
       </div> 
     </div>
   )

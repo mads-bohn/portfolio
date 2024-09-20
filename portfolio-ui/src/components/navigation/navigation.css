@@ -1,7 +1,5 @@
 .linkList li {
-    list-style: "-";
     text-transform: uppercase;
-    text-align: left;
     font-size: 24px;
     line-height: 2;
     position: relative;
@@ -26,6 +24,7 @@ li a:hover {
 
 .sidebar-name {
     margin: 96px auto 64px;
+    text-align: center;
 }
 
 .sidebar-links {
