@@ -7,9 +7,15 @@ import './navigation.css'
 export default function SideBar() {
   return (
     <div className='sidebar'>
-      <h1 className='sidebar-name'><Link to="/">MADS <br /> BOHN</Link></h1>
-      <LinkList />
-      <SocialIcons />
+      <div className='sidebar-name'>
+        <h1><Link to="/">MADS <br /> BOHN</Link></h1>
+      </div>
+      <div className='sidebar-links'>
+        <LinkList />
+      </div>
+      <div className='sidebar-icons'>
+        <SocialIcons />
+      </div>
     </div>
   )
 }

@@ -18,14 +18,23 @@ li a:hover {
 .sidebar {
     background-color: rgb(228, 228, 228);
     height: 100vh;
-    padding: 40px;
+    width: 240px;
     position: fixed;
     left: 0;
     top: 0;
 }
 
+.sidebar-name {
+    margin: 96px auto 64px;
+}
+
+.sidebar-links {
+    margin: 8px 44px;
+}
+
+
 .socialIcons {
-    margin-top: 8px;
+    margin: 8px auto;
     width: 151px;
 }
 

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div>
       <SideBar />
-      <div className='about'>
+      <div className='page'>
         <Bio />
         <Skills />
       </div> 
