@@ -10,9 +10,9 @@ export default function Bio() {
             in customer service. 
           </h3>
           <p className='bio-history'>My passion for coding began when I wanted to create my own website, and
-            became frustrated with the constraints of no-code site builders. I found that programming
-            reignited my desire to learn and solve problems. In 2024, I graduated from LaunchCode's web development 
-            course. Now, I'm looking for more opportunities to expand my existing skill set in software development. 
+            became frustrated with the constraints of no-code builders. Programming ignited my desire to learn 
+            and solve problems. In 2024, I graduated from LaunchCode's web development course. Now, I'm 
+            looking for more opportunities to expand my skill set in software development. 
           </p>
         </div>
     </div>
