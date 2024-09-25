@@ -27,6 +27,7 @@
     font-size: 112px;
     line-height: .8;
     margin: 8px;
+    text-align: center;
 }
 .hero-name:hover {
     cursor: default;

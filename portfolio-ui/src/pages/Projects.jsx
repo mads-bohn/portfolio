@@ -7,7 +7,9 @@ export default function Projects() {
   return (
     <div>
       <SideBar />
-      <ProjectList />
+      <div className='page'>
+        <ProjectList />
+      </div>
     </div>
   )
 }
