@@ -1,4 +1,5 @@
 import React from 'react'
+import '../projects/projects.css'
 
 let projectsArray = [
     {
@@ -21,13 +22,20 @@ export default function ProjectList() {
   return (
     <div>
         <h1>Projects</h1>
-        {projectsArray.map(project => (
-            <div key={project.title}>
-                <img src={project.thumbnail} alt={project.title} />
-                <h3><a href={project.link}>{project.title}</a></h3>
-                <p>{project.description}</p>
+        <div className='content'>
+        <div className='project-list'>
+           {projectsArray.map(project => (
+            <div className='project' key={project.title}>
+                <img src={project.thumbnail} alt={project.title} className='project-thumbnail'/>
+                <div className='project-text'>
+                    <h3 className='project-title'><a href={project.link}>{project.title}</a></h3>
+                    <p className='project-description'>{project.description}</p> 
+                </div>
+                
             </div>
-        ))}
+        ))} 
+        </div>
+        </div>
     </div>
   )
 }
