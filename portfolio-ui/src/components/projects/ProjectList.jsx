@@ -1,4 +1,5 @@
 import React from 'react'
+import Tags from './Tags'
 import '../projects/projects.css'
 
 let projectsArray = [
@@ -31,7 +32,7 @@ export default function ProjectList() {
                     <h3 className='project-title'><a href={project.link}>{project.title}</a></h3>
                     <p className='project-description'>{project.description}</p> 
                 </div>
-                
+                <Tags tagsArray={project.techStack}/>
             </div>
         ))} 
         </div>
