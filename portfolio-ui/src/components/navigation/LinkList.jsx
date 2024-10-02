@@ -6,10 +6,9 @@ export default function LinkList() {
   return (
     <div>
       <ul className='linkList'>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/resume">Resume</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#projectList'>Projects</a></li>
+        <li><a href='#experience'>Experience</a></li>
       </ul>
     </div>
   )

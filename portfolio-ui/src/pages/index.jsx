@@ -1,12 +1,21 @@
 import React from 'react'
-import Navbar from '../components/navigation/LinkList'
-
-import Hero from '../components/index/Hero'
+import SideBar from '../components/navigation/SideBar'
+import Bio from '../components/about/Bio'
+import ProjectList from '../components/projects/ProjectList'
 
 export default function Index() {
   return (
     <div>
-      <Hero />
+      <SideBar />
+      <div className='page'>
+        <div id='about'>
+          <Bio />
+        </div>
+        <div id='projectList'>
+          <ProjectList />
+        </div>
+        <div id='experience'></div>
+      </div> 
     </div>
   )
 }

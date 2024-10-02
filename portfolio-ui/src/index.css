@@ -39,7 +39,7 @@ h1 {
   line-height: 1.1;
   text-transform: uppercase;
   text-align: left;
-  margin: 48px 0 24px;
+  margin: 120px 0 24px;
 }
 
 h2 {
@@ -85,7 +85,7 @@ button:focus-visible {
 }
 
 .page {
-  margin: 72px 80px 0 320px;
+  margin: 0 80px 0 320px;
 }
 
 

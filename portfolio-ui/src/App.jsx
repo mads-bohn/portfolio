@@ -1,5 +1,5 @@
 import './App.css'
-import Index from './pages'
+import Index from './pages/Index';
 import Projects from './pages/Projects'
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import Resume from './pages/Resume';
@@ -13,20 +13,8 @@ function App() {
       element: <Index />
     },
     {
-      path: "/about",
-      element: <About />
-    },
-    {
-      path: "/projects",
-      element: <Projects />
-    },
-    {
       path: "/resume",
       element: <Resume />
-    },
-    {
-      path: "/contact",
-      element: <Contact />
     }
   ]);
 

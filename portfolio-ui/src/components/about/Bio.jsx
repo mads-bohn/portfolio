@@ -17,8 +17,8 @@ export default function Bio() {
         </div>
     </div>
     <div className='skills'>
-      <h2>Skills</h2>
-      <div className='content'>    
+      <div className='content'> 
+        <h2>Skills</h2>   
         <ul className='skills-list'>
           <li>JavaScript</li>
           <li>Java</li>
