@@ -11,7 +11,7 @@
 }
 
 .hero-right {
-    padding: 24px;
+    padding-top: 24px;
     margin: 38px 38px 38px 0;
 }
 
@@ -33,4 +33,10 @@
     font-size: 32px;
     font-weight: normal;
     text-transform: uppercase;
+}
+
+#profile {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
 }

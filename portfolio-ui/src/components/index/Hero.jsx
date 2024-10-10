@@ -11,8 +11,7 @@ export default function Hero() {
         <h3 className='hero-title'>Full-Stack Developer</h3>
       </div>
       <div className='hero-right'>
-        <LinkList />
-        <SocialIcons />
+        <img src='src/assets/profile.jpg' id='profile'></img>
       </div>
     </div>
   )
