@@ -10,14 +10,11 @@
 li a {
     color: #0e1d31;
 }
-li a:hover {
-    transition: color .7s;
-}
 
 .sidebar {
     background-color: rgb(228, 228, 228);
     height: 100vh;
-    width: 240px;
+    width: 24%;
     position: fixed;
     left: 0;
     top: 0;
@@ -49,5 +46,4 @@ li a:hover {
 }
 .socialIcon:hover {
     color: #747bff;
-    transition: color .7s;
 }

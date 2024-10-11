@@ -10,13 +10,13 @@ export default function Index() {
       <SideBar />
       <div className='page'>
         <Hero />
-        <div id='about'>
+        <div id='about' className='section'>
           <Bio />
         </div>
-        <div id='projectList'>
+        <div id='projectList' className='section'>
           <ProjectList />
         </div>
-        <div id='experience'></div>
+        <div id='experience' className='section'></div>
       </div> 
     </div>
   )

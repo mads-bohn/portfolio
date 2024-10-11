@@ -1,17 +1,16 @@
 .hero {
     width: 100%;
+    justify-content: center;
     display: flex;
     flex-direction: row;
 }
 
 .hero-left {
-    padding: 24px;
     margin: 38px;
     color: #0e1d31;
 }
 
 .hero-right {
-    padding-top: 24px;
     margin: 38px 38px 38px 0;
 }
 
@@ -20,7 +19,7 @@
     font-weight: 700;
     font-size: 112px;
     line-height: .8;
-    margin: 8px;
+    margin: 0;
     text-align: center;
 }
 .hero-name:hover {
@@ -29,14 +28,14 @@
 
 
 .hero-title {
-    margin-top: 16px;
+    margin: 16px 0 0;
     font-size: 32px;
     font-weight: normal;
     text-transform: uppercase;
 }
 
 #profile {
-    height: 250px;
-    width: 250px;
+    height: 235px;
+    width: 235px;
     border-radius: 150px;
 }

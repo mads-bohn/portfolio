@@ -51,6 +51,10 @@ h2 {
   margin: 48px 0 24px;
 }
 
+h3 {
+  margin: 32px 0;
+}
+
 li {
   list-style: "- ";
   text-align: left;
@@ -59,6 +63,10 @@ li {
 p {
   text-align: justify;
   line-height: 1.7;
+}
+
+span.bold {
+  font-weight: bold;
 }
 
 button {
@@ -80,12 +88,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
 .content {
   margin-left: 10%;
 }
 
 .page {
-  margin: 0 80px 0 320px;
+  margin: 0 13% 0 36%;
+}
+
+.section {
+  margin: 48px 0 96px;
 }
 
 
