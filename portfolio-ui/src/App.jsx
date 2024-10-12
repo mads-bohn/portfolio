@@ -2,7 +2,6 @@ import './App.css'
 import Index from './pages/Index';
 import Projects from './pages/Projects'
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import About from './pages/About';
 
@@ -11,10 +10,6 @@ function App() {
     {
       path: "/",
       element: <Index />
-    },
-    {
-      path: "/resume",
-      element: <Resume />
     }
   ]);
 

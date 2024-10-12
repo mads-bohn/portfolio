@@ -3,6 +3,7 @@ import SideBar from '../components/navigation/SideBar'
 import Bio from '../components/about/Bio'
 import Hero from '../components/index/Hero'
 import ProjectList from '../components/projects/ProjectList'
+import Experience from '../components/experience/Experience'
 
 export default function Index() {
   return (
@@ -16,7 +17,9 @@ export default function Index() {
         <div id='projectList' className='section'>
           <ProjectList />
         </div>
-        <div id='experience' className='section'></div>
+        <div id='experience' className='section'>
+          <Experience />
+        </div>
       </div> 
     </div>
   )
