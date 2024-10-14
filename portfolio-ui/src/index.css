@@ -97,6 +97,20 @@ button:focus-visible {
   margin: 0 13% 0 36%;
 }
 
+.resume-button {
+  background-color: #747bff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+}
+.resume-button:hover {
+  background-color: #969bff;
+  color: white;
+}
+
+
 .section {
   margin: 48px 0 96px;
 }

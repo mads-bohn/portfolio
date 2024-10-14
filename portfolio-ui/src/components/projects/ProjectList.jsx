@@ -29,8 +29,9 @@ export default function ProjectList() {
                 <div className='project-text'>
                     <h3 className='project-title'><a href={project.link}>{project.title}</a></h3>
                     <p className='project-description'>{project.description}</p> 
-                </div>
+                
                 <Tags tagsArray={project.techStack}/>
+                </div>
             </div>
         ))} 
         </div>

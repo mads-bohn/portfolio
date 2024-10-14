@@ -1,15 +1,27 @@
+.experience-years {
+    float: left;
+    width: 180px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .project {
     margin: 24px 0;
 }
 
 .project-description {
-    margin: 0 16px;
+    margin: 0;
 }
 
 .project-list {
     display: flex;
     flex-direction: column;
 
+}
+
+.project-text {
+    margin-left: 224px;
 }
 
 .project-title {
@@ -23,8 +35,7 @@
 
 .project-thumbnail {
     float: left;
-    width: 250px;
-    margin-right: 24px;
+    width: 180px;
 }
 
 .tag {
