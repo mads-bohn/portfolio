@@ -4,7 +4,7 @@ export default function Bio() {
   return (
     <>
     <div className='bio'>
-          <h3>I'm a motivated and curious developer with a history in customer service. </h3>
+          <h3>I'm a motivated and curious programmer with a history in customer service. </h3>
           <p>My <span className='bold'>passion </span>for coding began when I wanted to create my own website, and
             became frustrated with the constraints of no-code builders. Programming ignited my desire to learn 
             and solve problems. In 2024, I graduated from <span className='bold'>LaunchCode</span>, where I studied 

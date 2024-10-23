@@ -20,6 +20,7 @@ let experienceArray = [
 export default function Experience() {
   return (
     <div>
+        <h2>Experience</h2>
         <div className='experience-list'>
             {experienceArray.map(experience => (
                 <div className='project' key={experience.title}>

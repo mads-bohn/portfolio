@@ -39,7 +39,8 @@ h1 {
   line-height: 1.1;
   text-transform: uppercase;
   text-align: left;
-  margin: 120px 0 24px;
+  margin: 0;
+  text-wrap: nowrap;
 }
 
 h2 {
@@ -52,7 +53,8 @@ h2 {
 }
 
 h3 {
-  margin: 32px 0;
+  margin: 72px 0 24px;
+  text-align: center;
 }
 
 li {
@@ -94,7 +96,7 @@ button:focus-visible {
 }
 
 .page {
-  margin: 0 13% 0 36%;
+  margin: 5% 22%;
 }
 
 .resume-button {

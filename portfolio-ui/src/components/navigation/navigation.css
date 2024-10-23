@@ -29,12 +29,10 @@ li a {
     margin: 8px 44px;
 }
 
-
 .socialIcons {
-    margin: 8px auto;
-    width: 151px;
+    text-align: left;
+    margin-top: 40px;
 }
-
 .socialIcons a {
     font-size: 32px;
     color:#0e1d31;

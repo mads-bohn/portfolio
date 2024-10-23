@@ -8,7 +8,6 @@ import Experience from '../components/experience/Experience'
 export default function Index() {
   return (
     <div>
-      <SideBar />
       <div className='page'>
         <Hero />
         <div id='about' className='section'>

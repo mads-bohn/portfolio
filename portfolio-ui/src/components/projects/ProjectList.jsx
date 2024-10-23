@@ -22,6 +22,7 @@ let projectsArray = [
 export default function ProjectList() {
   return (
     <div>
+        <h2>Projects</h2>
         <div className='project-list'>
            {projectsArray.map(project => (
             <div className='project' key={project.title}>
